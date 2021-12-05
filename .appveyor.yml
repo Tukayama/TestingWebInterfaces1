@@ -13,8 +13,8 @@ install:
     test_script:
       - shellcheck -V
 
-    - # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
-  - java -jar ./artifacts/app-order.jar &
+      - # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
+    - java -jar ./artifacts/app-order.jar &
 
 #build_script:
 #  - chmod +x gradlew # даем права доступа к файлу gradlew
