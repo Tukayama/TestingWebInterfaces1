@@ -7,9 +7,9 @@ branches:
     - master  # ветка git
 
   # будем использовать свой скрипт сборки
-
+ build: off
 install:
-  build: off
+ 
     test_script:
       - shellcheck -V
 
